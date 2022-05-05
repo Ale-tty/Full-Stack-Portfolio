@@ -23,7 +23,7 @@
     <section class="presentation"> 
         <div class="container">
           <h1  class="title">
-            ¡Hola! Soy <strong>Alejandra Sánchez</strong> <br/> Desarrolladora  <strong>Full Stack</strong> 
+            ¡Hola! Soy <strong>Alejandra Sánchez</strong> <br/> Desarrolladora  <strong>.Net</strong> 
           </h1>
         <div id="portafolio" class="wrapper">
             <div class="center-line">
@@ -129,7 +129,20 @@
                   <span>Septiembre 2021 a Diciembre 2021</span>
                 </div>
                 <p>Este es un clon de Twitter realizado con React</p>
-                <img class="imagen-sola" src="assets/twitter.PNG" width="400" height="350">
+                <div class="w3-content w3-display-container3" style="max-width:800px">
+                  <img class="mySlides12" src="assets/twitter.PNG" width="100" height="350" style="width: 100%; display: none;">
+                  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle3" style="width:100%">
+                    <!-- <div id="inline" justify-content: space-around> 
+                      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1, 'mySlides12')">&#10094;</div>
+                      <p class="carousel"> ---- </p>
+                      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1, 'mySlides12')">&#10095;</div>
+                    </div> -->
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white3" onclick="currentDiv(4)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white3" onclick="currentDiv(5)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white3" onclick="currentDiv(6)"></span>
+                  </div>
+                </div>
+                <!-- <img class="imagen-sola" src="assets/twitter.PNG" width="400" height="350"> -->
                 <div class="bottom">
                   <a class="event-url" href="https://twitter-clon-25a8e.web.app/" target="_blank">Visitar el sitio</a>
                 </div>
@@ -374,7 +387,8 @@
     </section>
     <footer id="contact" class="footer">
         <p class="contact">¿Te gustó mi trabajo?<br> Puedes contactarme:  <br></p>
-        <h2 class="correo">  <a class="correo" href="mailto:alejandrasanchez22@aragon.unam.mx?subject=Hola Alejandra"> alejandrasanchez22@aragon.unam.mx</a> </h3>
+        <h2 class="correo">  <a class="correo" href="mailto:alejandrasanchez22@aragon.unam.mx?subject=Hola Alejandra"> alejandrasanchez22@</a> </h2>
+        <h2 class="correo">  <a class="correo" href="mailto:alejandrasanchez22@aragon.unam.mx?subject=Hola Alejandra"> aragon.unam.mx</a> </h2>
         <p class="contacts" align="center" >También puedes encontrarme en: </p>
         <div class="redes-sociales" >
           <a class="linkedin"  href="https://www.linkedin.com/in/alejandra-patricia-s%C3%A1nchez-s%C3%A1nchez-2b109a210/" target="_blank"><img src="assets/linkedin (1).png" alt="linkedin" width="35" height="40" /></a>
@@ -396,6 +410,7 @@
       showDivs(slideIndex, 'mySlides9');
       showDivs(slideIndex, 'mySlides10');
       showDivs(slideIndex, 'mySlides11');
+      showDivs(slideIndex, 'mySlides12');
       
       
       function plusDivs(n, z) {
